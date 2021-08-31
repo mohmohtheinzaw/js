@@ -1,0 +1,26 @@
+<form action="" id="form">
+    
+    
+    <label for="">First Number</label>
+    <input type="number" name="" id="fNumber" class="form-control mt-3" placeholder="Enter first Number">
+    <small class="text-danger" id="fNumError">First number Required!</small><br>
+    <label for="" class="mt-2">Second Number</label>
+    <input type="number" name="" id="sNumber" class="form-control mt-3" placeholder="Enter Second Number">
+    <small class="text-danger" id="sNumError">Second number Required!</small><br>
+   <div class="form-group mt-2">
+    <label for="">Select Operators</label>
+    <select name="" id="operators" class="form-select">
+        <option value="empty">Choose operators...</option>
+        <option value="add">+</option>
+        <option value="minus">-</option>
+        <option value="multiply">*</option>
+        <option value="division">/</option>
+    </select>
+    <small class="text-danger" id="operatorError">Operators Required!</small><br>
+    <button class="btn btn-dark text-white mt-3" id="btnCalculate" onclick="calculate()" type="button" >Calculate</button>
+    <button class="btn btn-danger text-white mt-3" id="btnClear" onclick="clears()" type="button">Clear</button>
+   
+   </div>
+
+
+</form>
